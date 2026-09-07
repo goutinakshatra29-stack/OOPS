@@ -1,0 +1,8 @@
+class animal:
+    def walk(self):
+        print("animals have 4 legs")
+class Lion(animal):
+    def walk(self):
+        print("Lion walks on four legs")
+d1=Lion()
+d1.walk()
