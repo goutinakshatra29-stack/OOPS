@@ -1,0 +1,13 @@
+class space:
+    def planet(self):
+        print("Earth")
+class earth(space):
+    def human(self):
+        print("human being")
+class alive(earth):
+    def life(self):
+        print("Nakshatra")
+d1=alive()
+d1.planet()
+d1.human()
+d1.life()
