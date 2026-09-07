@@ -1,0 +1,13 @@
+class jntu:
+    def clg(self):
+        print("kprit-jntu")
+class ou:
+    def college(self):
+        print("kprit-coe")
+class Kprit(jntu,ou):
+    def campus(self):
+        print("college")
+d1=Kprit()
+d1.clg()
+d1.college()
+d1.campus()
